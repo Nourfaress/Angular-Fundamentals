@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand navbar-dark bg-primary mb-5">
+  <div class="container">
+      <a class="navbar-brand mb-0 h1" routerLink="/">MyStore</a>
+      <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a routerLink="/" [ngClass]="{'active' : currentComponent === 'home'}" class="nav-link"
+                      routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home</a>
+              </li>
+              <li class="nav-item">
+                  <a routerLink="/cart" [ngClass]="{'active' : currentComponent === 'cart'}" class="nav-link"
+                      routerLinkActive="active">Cart</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
