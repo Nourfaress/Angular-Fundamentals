@@ -31,4 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## MyStore Project Overview
 MyStore is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process.
 
-![MyStore shopping flow](MyStorei.gif)
+![MyStore shopping flow](MyStore.gif)
